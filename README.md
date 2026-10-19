@@ -23,13 +23,24 @@ When activated, your agent shifts into a Senior Quality Auditor mindset:
 
 ---
 
-## How to Install
+## How to Install & Use
 
 Install this skill into your local workspace using any standard skill manager:
 
 ### Using `skills.sh` CLI (Recommended)
+
 ```bash
+# Add to current project
 npx skills add Keval2609/senior-code-quality-auditor
+
+# Install globally across all your local agents
+npx skills add Keval2609/senior-code-quality-auditor -g --all
+
+# Try or inspect without installing
+npx skills use Keval2609/senior-code-quality-auditor
+
+# List available skills in this repo
+npx skills add Keval2609/senior-code-quality-auditor --list
 ```
 
 ### Using Claude Code CLI
