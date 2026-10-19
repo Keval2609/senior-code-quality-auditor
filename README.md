@@ -29,22 +29,22 @@ Install this skill into your local workspace using any standard skill manager:
 
 ### Using `skills.sh` CLI (Recommended)
 ```bash
-npx skills add <YOUR_GITHUB_USERNAME>/senior-code-quality-auditor
+npx skills add Keval2609/senior-code-quality-auditor
 ```
 
 ### Using Claude Code CLI
 ```bash
-claude skill add <YOUR_GITHUB_USERNAME>/senior-code-quality-auditor
+claude skill add Keval2609/senior-code-quality-auditor
 ```
 
 ### Manual Installation
 Clone this repository directly into your project's agent skills directory:
 ```bash
 # For Universal / Antigravity / Cursor Agents:
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/senior-code-quality-auditor.git .agents/skills/senior-code-quality-auditor
+git clone https://github.com/Keval2609/senior-code-quality-auditor.git .agents/skills/senior-code-quality-auditor
 
 # For Claude Code:
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/senior-code-quality-auditor.git .claude/skills/senior-code-quality-auditor
+git clone https://github.com/Keval2609/senior-code-quality-auditor.git .claude/skills/senior-code-quality-auditor
 ```
 
 ---
@@ -86,4 +86,4 @@ Verify that the skill is actively governing your agent with these sample prompts
 
 ## License
 
-MIT © [Your Name / Organization]
+MIT © [Keval Raiyani](https://github.com/Keval2609)
